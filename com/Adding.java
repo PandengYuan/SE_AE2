@@ -16,7 +16,8 @@ public class Adding {
 
 		System.out.println(a + " + " + b + " = " + aPlusb);
 		System.out.println(c + " + " + d + " = " + addingObject.addingMethod(c,d));
-		//测试内容，nmsl
+		//三次测试，你好牛逼啊
+
 	}
 
 }
