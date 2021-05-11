@@ -1,4 +1,3 @@
-package week2_3_Objects;
 
 public class Adding {
 	public int addingMethod(int firstNumber, int secondNumber) {
@@ -17,6 +16,7 @@ public class Adding {
 
 		System.out.println(a + " + " + b + " = " + aPlusb);
 		System.out.println(c + " + " + d + " = " + addingObject.addingMethod(c,d));
+		//测试内容，nmsl
 	}
 
 }
