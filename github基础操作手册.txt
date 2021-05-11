@@ -1,0 +1,52 @@
+
+--克隆仓库所有东西
+git clone [仓库的地址] [自己重命名]
+
+git clone https://github.com/PandengYuan/SE_AE2.git SE_AE2_Project
+
+
+--将GitHub上别的成员写的代码更新到本地
+git pull 
+
+
+--上传文件
+
+git init
+git add .
+git commit -m “修改说明”
+git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
