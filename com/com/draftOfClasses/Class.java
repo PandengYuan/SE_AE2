@@ -1,28 +1,28 @@
 package com.draftOfClasses;
 
 public class Class {
-    private int ClassNo;
-    private String ClassName;
+    private int classNo;
+    private String className;
 
     public Class(int num, String name)
     {
-        ClassNo = num;
-        ClassName = name;
+        classNo = num;
+        className = name;
     }
 
     public int getClassNo() {
-        return ClassNo;
+        return classNo;
     }
 
     public void setClassNo(int classNo) {
-        ClassNo = classNo;
+        this.classNo = classNo;
     }
 
     public String getClassName() {
-        return ClassName;
+        return className;
     }
 
     public void setClassName(String className) {
-        ClassName = className;
+        this.className = className;
     }
 }
