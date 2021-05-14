@@ -1,0 +1,8 @@
+C001	Programming
+C002	Database
+C003	Algorithm
+T001	Simon	Programming
+T002	Alice	Politics
+T003	Katie	Economics
+T004	Johnson	Algorithm
+T005	Albert	Database
