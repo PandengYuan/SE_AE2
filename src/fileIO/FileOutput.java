@@ -1,20 +1,19 @@
 package fileIO;
 
-
 import java.io.FileWriter;
 import java.io.IOException;
-import business.ListOfObject;
+import java.util.ArrayList;
 
 public class FileOutput {
 
-	public static void writeDataToFile(ListOfObject[] listOfObject, String fileAddress) {
+	public static void writeDataToFile(ArrayList<String> arrayList, String fileAddress) {
 		System.out.println("Start to write data...\n");
 		FileWriter fw = getConnection(fileAddress);
 		try {
-			fw.write("\n");
+			fw.write("\n\n");
 			
-			for (ListOfObject o : listOfObject) {
-				fw.write(o.toString());
+			for (String string: arrayList) {
+				fw.write(string);
 			}
 			
 		} catch (IOException e) {
@@ -28,7 +27,7 @@ public class FileOutput {
 	}
 
 	
-	public static FileWriter getConnection(String fileAddress) {
+	private static FileWriter getConnection(String fileAddress) {
 		
 		FileWriter fr = null;
 
@@ -41,7 +40,7 @@ public class FileOutput {
 		return fr;
 	}
 	
-	public static void closeFileWriter(FileWriter fr) {
+	private static void closeFileWriter(FileWriter fr) {
 		
 		try {
 			fr.close();
@@ -49,6 +48,5 @@ public class FileOutput {
 			e.printStackTrace();
 		}
 	}
-
 	
 }

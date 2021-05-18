@@ -1,43 +1,31 @@
 package business;
 
-import people.Teacher;
-
-public class Course {
+public class Course extends Object{
 	
 	private String courseID;
 	private String courseName;
-	private String teachingRequirement;
-	private Teacher teacher;
+	private ListOfRequirements listOfRequirements;
 	
-	
-	public Course(String courseID, String courseName) {
+	protected Course(String courseID, String courseName) {
 		this.courseID = courseID;
 		this.courseName = courseName;
 	}
 	
-	
-	public String getCourseID() {
+	protected String getCourseID() {
 		return courseID;
 	}
 
-	public void setTeachingRequirement(String teachingRequirement) {
-		this.teachingRequirement = teachingRequirement;
+	protected ListOfRequirements getListOfRequirements() {
+		return listOfRequirements;
 	}
-
-	public void setTeacher(Teacher teacher) {
-		this.teacher = teacher;
+	protected void setListOfRequirements(ListOfRequirements listOfRequirements) {
+		this.listOfRequirements = listOfRequirements;
 	}
-	
-	public Teacher getTeacher() {
-		return teacher;
-	}
-
 
 	@Override
 	public String toString() {
 		return "[CourseID: "+courseID+", CourseName: "+courseName+"] "
-				+ "\nTeaching Requirement: "+teachingRequirement+" \nTeacher Information : "+teacher+" \n";
+				+ "\nTeaching Requirements: \n"+listOfRequirements+" \n";
 	}
 	
-
 }
