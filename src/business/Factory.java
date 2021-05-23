@@ -10,6 +10,7 @@ package business;
 		}else if (string.equals("ListOfTeachers")) {
 			listOfObjects = new ListOfTeachers();
 		}
+		//return the object we asked
 		return listOfObjects;
 		
 	}

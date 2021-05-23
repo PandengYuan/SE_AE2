@@ -33,9 +33,9 @@ public class SystemInterface {
 		ListOfObjects[] listOfObjects = new ListOfObjects[3];
 		//use factory pattern to create several products (ListOfCourses, ListOfTeachers)
 		Factory factory  = new Factory();
-		listOfObjects[0] = factory.getListOfObjects("ListOfCourses");
-		listOfObjects[1] = factory.getListOfObjects("ListOfTeachers");
-		listOfObjects[2] = factory.getListOfObjects("ListOfTeachers");
+		listOfObjects[0] = factory.getListOfObjects("ListOfCourses"); //Store all course
+		listOfObjects[1] = factory.getListOfObjects("ListOfTeachers"); //Include all teachers
+		listOfObjects[2] = factory.getListOfObjects("ListOfTeachers"); //Will involve teaches who need training
 		
 		//file content parsing process
 		for (String string : fileContent) {

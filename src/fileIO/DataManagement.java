@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class DataManagement {
 	
-	//the method of loading data
+	//the method of loading data (for file I/O)
 	public  ArrayList<String> loadData(String dataAddress) {
 		//use the loadFile method of FileInput object
 		return new FileInput().loadFile(dataAddress);

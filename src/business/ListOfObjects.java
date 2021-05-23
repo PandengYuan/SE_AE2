@@ -1,5 +1,6 @@
 package business;
 
+//main interface for lists
  interface ListOfObjects {
 	 
 	//add an element to list
