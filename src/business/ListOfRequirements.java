@@ -2,7 +2,7 @@ package business;
 
  class ListOfRequirements implements ListOfObjects{
 	 
-	//attributes
+	//Attributes
 	private	Requirement[] list;
 	private	int	i, max, it;
 	

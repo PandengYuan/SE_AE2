@@ -2,7 +2,7 @@ package business;
 
  class Requirement {
 	 
-	//attributes
+	//Attributes
 	 //requirementID
 	private String requirementID;
 	 //the number of required teachers

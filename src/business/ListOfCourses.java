@@ -2,7 +2,7 @@ package business;
 
  class ListOfCourses implements ListOfObjects{
 	 
-	//attributes
+	//Attributes
 	private	Course[] list;
 	private	int	i, max, it;
 	

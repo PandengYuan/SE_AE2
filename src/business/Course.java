@@ -2,7 +2,7 @@ package business;
 
  class Course {
 	 
-	//attributes
+	//Attributes
 	private String courseID;
 	private String courseName;
 	private ListOfRequirements listOfRequirements;
