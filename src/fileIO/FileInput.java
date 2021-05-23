@@ -10,8 +10,8 @@ import java.util.Scanner;
 	
 	//read content from a file and generate an object containing file content
 	public  ArrayList<String> loadFile(String fileAddress) {
-		ArrayList<String> fileContent = new ArrayList<String>();
-		System.out.println("Start to load data...");
+		ArrayList<String> fileContent = new ArrayList<String>();  //Prepare space for storage
+		System.out.println("Start to load data...");  //Give operation tips
 		
 		//generate FileReader object
 		FileReader fr = (FileReader) getConnection(fileAddress);

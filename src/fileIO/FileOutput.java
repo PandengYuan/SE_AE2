@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 	//write content to a file from an object 
 	public void writeDataToFile(ArrayList<String> arrayList, String fileAddress) {
-		System.out.println("Start to write data...\n");
+		System.out.println("Start to write data...\n");  //Give operation tips
 		
 		//generate FileWriter object
 		FileWriter fw = getConnection(fileAddress);
@@ -46,5 +46,7 @@ import java.util.ArrayList;
 			e.printStackTrace();
 		}
 	}
+	//Please make sure that the file path and read and write permissions are correct.
+	 // If there is no write permission, the write will be an exception.
 	
 }

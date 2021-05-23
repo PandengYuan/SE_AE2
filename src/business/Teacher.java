@@ -13,6 +13,8 @@ import java.util.ArrayList;
 	private ListOfTrainings listOfTrainings;
 
 	//constructor
+	 //This constructor can be easily used by the file read-in version.
+	// It can also be used directly by the full version in the future.
 	public Teacher(String teacherID, String name, ArrayList<String> skills) {
 		this.teacherID = teacherID;
 		this.name = name;

@@ -3,13 +3,13 @@ package business;
  class ListOfTeachers implements ListOfObjects{
 	 
 	//attributes
-	private	Teacher[] list;
+	private	Teacher[] list;  //Use a list to store teacher references
 	private	int	i, max, it;
 	
 	//constructor
 	public ListOfTeachers() {
 		max = 10;
-		list = new Teacher[max];
+		list = new Teacher[max];  //We assume that there are up to 10 teachers to be arranged
 		i = 0;
 	}
 	
