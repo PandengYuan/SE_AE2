@@ -2,6 +2,7 @@ package user;
 
 import business.SystemInterface;
 
+//For all system user will include some attributes and method
 public class User {
 	
 	//attributes

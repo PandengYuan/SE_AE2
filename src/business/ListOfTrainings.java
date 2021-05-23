@@ -9,7 +9,7 @@ package business;
 	//constructor
 	public ListOfTrainings() {
 		max = 10;
-		list = new String[max];
+		list = new String[max];  //We assume that the teacher’s training projects will be less than 10
 		i = 0;
 	}
 	

@@ -2,6 +2,7 @@ package user;
 
 import business.SystemInterface;
 
+//who responsible for input teaching requirements
 public class Director extends User{
 
 	//constructor

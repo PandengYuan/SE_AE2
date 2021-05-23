@@ -2,6 +2,7 @@ package user;
 
 import business.SystemInterface;
 
+//Responsible for fill in teachers and training
 public class Administrator extends User{
 	
 	//constructor
