@@ -30,4 +30,4 @@ package business;
 				+ "\nTeaching Requirements: \n"+listOfRequirements+" \n";
 	}
 	
-}
+} 
