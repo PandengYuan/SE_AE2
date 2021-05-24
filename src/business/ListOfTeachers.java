@@ -76,7 +76,7 @@ package business;
 	@Override
 	public boolean hasNext() {
 		return it < i;
-	}
+	} 
 	
 
 }
