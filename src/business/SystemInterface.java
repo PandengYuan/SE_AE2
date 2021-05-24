@@ -145,7 +145,7 @@ public class SystemInterface {
 				}
 				
 			}
-		}
+		} 
 		
 		System.out.println("\n------------------------------------------------------------------------------------------------");
 		System.out.println("Well done! You have chosen suitable staff successfully for each course. The result is as follows: \n");
