@@ -29,7 +29,7 @@ package business;
 	}
 	
 	public String getContent() {
-		return content;
+		return content; 
 	}
 	
 	public void setIDs(String iDs) {
