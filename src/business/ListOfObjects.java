@@ -23,4 +23,4 @@ package business;
 	public Object next();
 	public	boolean	hasNext();
 	
-}
+} 
