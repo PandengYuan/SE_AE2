@@ -22,3 +22,4 @@ public class Administrator extends User{
 		getSystemInterface().organiseTrainingForTeachers();
 	}
 }
+1
