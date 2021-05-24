@@ -21,5 +21,5 @@ public class Administrator extends User{
 		//use the organiseTrainingForTeachers method of systemInterface object
 		getSystemInterface().organiseTrainingForTeachers();
 	}
-}
+}1
 1
