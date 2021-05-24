@@ -17,7 +17,7 @@ import java.util.Scanner;
 		FileReader fr = (FileReader) getConnection(fileAddress);
 		Scanner scanner = new Scanner(fr);
 		//read content and store to object
-		while(scanner.hasNextLine()) {
+		while(scanner.hasNextLine()) {1
 			fileContent.add(scanner.nextLine());
 		}
 		//close  FileReader object
