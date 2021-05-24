@@ -31,5 +31,5 @@ public class se2_main_test {
 		new DataManagement().writeData(systemInterface.fileOutputProcess(), dataAddress);
 		
 	}
-
+1
 }1
