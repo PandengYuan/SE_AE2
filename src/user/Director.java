@@ -16,3 +16,4 @@ public class Director extends User{
 		getSystemInterface().produceTeachingRequirements();
 	}
 }
+1
